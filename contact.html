@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> <!-- Changed from "index.html" to "/" -->
+        <a href="/about">About</a> <!-- Changed from "about.html" to "/about" -->
+        <a href="/contact">Contact</a> <!-- Changed from "contact.html" to "/contact" -->
+    </nav>
+    
+    <header>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you. Please fill out the form below to get in touch.</p>
+    </header>
+
+    <main>
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
